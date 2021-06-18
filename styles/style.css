@@ -1,0 +1,515 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Menu__img {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+  .Information {
+    display: none;
+  }
+
+  .Button {
+    display: none;
+  }
+
+  .Post_Header__Img {
+    display: none;
+  }
+
+  .Map {
+    display: none;
+  }
+
+  .Container_2 {
+    display: none;
+  }
+
+  .HR {
+    display: none;
+  }
+
+  .Container {
+    margin: 5.83vw 3.61vw;
+  }
+
+  .Logo {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 8.88vw;
+    line-height: 130%;
+    color: #c51103;
+    text-decoration: none;
+  }
+
+  .Menu_text {
+    cursor: default;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 5vw;
+    line-height: 150%;
+    color: #999999;
+    margin-left: 3.33vw;
+    margin-top: 1.38vw;
+  }
+
+  .Post_Header {
+    margin-top: 6.94vw;
+  }
+
+  .Post_Header_Text__Bold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 6.1vw;
+    line-height: 130%;
+    color: #1f1f1f;
+  }
+
+  .Post_Header_Text__Green {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 6.1vw;
+    line-height: 130%;
+    color: #82b2a2;
+  }
+
+  .Header {
+    display: flex;
+  }
+
+  .Menu {
+    cursor: pointer;
+    color: #626262;
+    font-size: 7vw;
+    margin-left: 38.88vw;
+  }
+  .Received_apps {
+    font-family: Inter;
+    font-size: 3.88vw;
+    color: #1f1f1f;
+    margin-top: 3.6vw;
+    margin-bottom: 6.6vw;
+  }
+
+  .Services {
+    margin-bottom: 13.6vw;
+  }
+  .Services__Heading {
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 4.16vw;
+    line-height: 130%;
+    color: #1f1f1f;
+    margin: 5.83vw 0 4.44vw 7.22vw;
+  }
+
+  .Filling > span {
+    margin-bottom: 4.44vw;
+  }
+
+  .Services_Block {
+    display: flex;
+    flex-direction: column;
+    background: #f2f6f6;
+    width: 90vw;
+    margin-bottom: 6.66vw;
+  }
+
+  .Filling {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-size: 3.33vw;
+    line-height: 150%;
+    color: #1f1f1f;
+    margin-left: 7.22vw;
+  }
+
+  .Statistics__Text {
+    margin-left: 4.44vw;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 4.16vw;
+    line-height: 150%;
+    color: #1f1f1f;
+    width: 39.44vw;
+  }
+
+  .Statistics_Green_Text {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15.83vw;
+    line-height: 130%;
+    color: #82b2a2;
+  }
+
+  .Calls_Received {
+    display: flex;
+    flex-direction: row;
+    width: 66.38vw;
+    margin-left: 15.83vw;
+  }
+
+  .Completed_applications {
+    display: flex;
+    flex-direction: row;
+    width: 66.38vw;
+    margin-left: 15.83vw;
+  }
+}
+
+@media screen and (min-width: 721px) {
+  .Received_apps {
+    display: none;
+  }
+  .Container {
+    margin: 1.875vw 8.48vw 3.33vw 8.48vw;
+  }
+
+  .Header {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Logo {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 1.66vw;
+    line-height: 130%;
+    color: #c51103;
+    text-decoration: none;
+    margin-top: 0.72vw;
+  }
+
+  .Menu_text {
+    cursor: default;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.93vw;
+    line-height: 150%;
+    color: #999999;
+    margin-left: 0.62vw;
+    margin-top: 1.2vw;
+  }
+
+  .Menu {
+    cursor: pointer;
+    color: #626262;
+    font-size: 1.7vw;
+    margin-left: 3.75vw;
+    margin-top: 0.72vw;
+  }
+
+  .Information__Section_1 {
+    margin-right: 4.7vw;
+    width: 12.5vw;
+  }
+
+  .Information__Section_2 {
+    width: 16vw;
+  }
+
+  .Information {
+    display: flex;
+    flex-direction: row;
+    margin: 0 14.37vw 0.41vw 12.39vw;
+  }
+
+  .Text_Green {
+    margin-bottom: 0.1vw;
+    font-family: "Open Sans Bold", arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.14vw;
+    line-height: 130%;
+    color: #82b2a2;
+  }
+
+  .Block_Size_1 {
+    width: 8.7vw;
+  }
+
+  .Block_Size_2 {
+    width: 2vw;
+  }
+
+  .Opacity_Text {
+    font-family: Inter;
+    font-size: 0.83vw;
+    line-height: 130%;
+    color: #999999;
+  }
+
+  .Button {
+    width: 10.31vw;
+  }
+
+  .Button_Enter {
+    cursor: pointer;
+    border: 0.1vw solid #82b2a2;
+    width: 10.31vw;
+    background: #ffffff;
+    text-align: left;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 0.83vw;
+    line-height: 150%;
+    text-align: center;
+    color: #4a4a4a;
+    margin-top: 0.15vw;
+  }
+
+  .Post_Header {
+    display: flex;
+    flex-direction: row;
+    margin: 0.36vw 0 1.25vw 0;
+  }
+  .Post_Header__Text {
+    margin-top: 3.75vw;
+    width: 37.81vw;
+  }
+  .Post_Header_Text__Bold {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2.86vw;
+    line-height: 130%;
+    color: #1f1f1f;
+  }
+
+  .Post_Header_Text__Green {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.86vw;
+    line-height: 130%;
+    color: #82b2a2;
+  }
+
+  .Post_Header__Img {
+    width: 45.2vw;
+  }
+
+  .Services__First_Block {
+    display: flex;
+    flex-direction: column;
+    width: 26.5vw;
+    background: #f2f6f6;
+  }
+
+  .Services_Block {
+    display: flex;
+    flex-direction: column;
+    background: #f2f6f6;
+  }
+
+  .Services {
+    margin-bottom: 3.75vw;
+    display: flex;
+    flex-direction: row;
+  }
+  .Services__First_Block > span {
+    margin: 1.6vw 0 1.25vw 2.08vw;
+  }
+
+  .Filling > span {
+    margin: 0 0 1.25vw 2.08vw;
+  }
+
+  .Services__Heading {
+    font-family: Open Sans;
+    font-weight: bold;
+    font-size: 1.25vw;
+    line-height: 130%;
+    color: #1f1f1f;
+  }
+
+  .Filling {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-size: 0.93vw;
+    line-height: 150%;
+    color: #1f1f1f;
+  }
+
+  .First_Block__Last_Span {
+    width: 23.12vw;
+  }
+
+  .Services__Second_Block {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Second_Block__First_Block {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Healthguarding {
+    margin-left: 1.6vw;
+    width: 26.5vw;
+  }
+
+  .Socialguarding {
+    width: 26.5vw;
+    margin-left: 1.6vw;
+  }
+
+  .Volunteer {
+    height: 256px;
+    margin: 1.66vw 0 0 1.6vw;
+    width: 54.7vw;
+  }
+
+  .Healthguarding > span {
+    margin: 1.6vw 0 1.25vw 2.08vw;
+  }
+
+  .Socialguarding > span {
+    margin: 1.6vw 0 1.25vw 1.6vw;
+  }
+
+  .Volunteer > span {
+    margin: 1.77vw 28.22vw 1.25vw 2.08vw;
+  }
+
+  .Volunteer > .Filling > span {
+    margin: 0 28.22vw 1.25vw 2.08vw;
+  }
+
+  .Statistics {
+    display: flex;
+    flex-direction: row;
+    width: 59.16vw;
+    margin: 0 11.87vw 2.29vw 11.87vw;
+  }
+
+  .Statistics__Text {
+    margin-top: 0.57vw;
+    margin-left: 0.98vw;
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 0.93vw;
+    line-height: 150%;
+    color: #1f1f1f;
+  }
+
+  .Calls_Received {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 14.63vw;
+  }
+
+  .Completed_applications {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    width: 16vw;
+    margin-left: 6.45vw;
+  }
+
+  .HR {
+    border: 0.05vw solid #c0e4e4;
+    width: 100%;
+  }
+
+  .Map {
+    margin-top: 0.625vw;
+  }
+
+  .Map__Info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-bottom: 1.61vw;
+  }
+
+  .Map_Info__Text_Bold {
+    font-family: Open Sans;
+    width: 18.75vw;
+    font-weight: bold;
+    font-size: 1.87vw;
+    line-height: 130%;
+  }
+
+  .Map_Info__Text_Opacity {
+    font-family: Inter;
+    font-size: 0.93vw;
+    line-height: 140%;
+    color: #999999;
+    width: 21.09vw;
+  }
+
+  .Map__Image {
+    width: 83.02vw;
+  }
+
+  .Logo_2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    line-height: 130%;
+    color: #c51103;
+    text-decoration: none;
+  }
+
+  .Logo_2__Text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.93vw;
+    line-height: 140%;
+    color: #1f1f1f;
+    width: 16vw;
+    margin: 0.52vw 50.52vw 0 1.3vw;
+  }
+
+  .Footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .Footer_Img {
+    width: 1.25vw;
+  }
+  .Footer_Upper {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3.02vw;
+  }
+
+  .Container_2 {
+    margin: 2.5vw 8.48vw 3.33vw 8.48vw;
+  }
+
+  .Footer_Lower {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Footer_Lower__Section_1 {
+    margin-right: 9.11vw;
+    width: 12.5vw;
+  }
+
+  .Footer_Lower__Section_2 {
+    margin-right: 9.11vw;
+  }
+}
